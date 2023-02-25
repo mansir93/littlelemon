@@ -1,0 +1,42 @@
+.specialCard {
+    background-color: #EDEFEE;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.specialCard img {
+    max-width: 100%;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cardBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 5rem;
+    padding: 1rem;
+}
+
+.cardBody h4 {
+    grid-column: 1 / 2;
+    margin-top: 0;
+}
+
+.cardBody em {
+    grid-column: 2 / -1;
+    text-align: right;
+}
+
+.cardBody p, .cardBody a {
+    grid-column: span 2;
+    align-self: center;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.cardBody a {
+    color: #222222;
+    font-weight: bold;
+    text-decoration: none;
+}

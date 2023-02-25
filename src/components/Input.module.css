@@ -1,0 +1,16 @@
+.label {
+    display: block;
+    padding: 0.4rem;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: 0.4rem;
+    box-sizing: border-box;
+}
+
+.errorMessageWrapper {
+    color: #ff0000;
+    margin-bottom: 2rem;
+}
